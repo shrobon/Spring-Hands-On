@@ -6,3 +6,4 @@
 1. springcore: Dependency Setter Injection + p:namespace
 2. CollectionListHospital : Dependency injection on Lists
 3. CarDealerCollection : Dependency injection on Sets
+4. ReferenceDemo: Dependency Injection using Reference types
