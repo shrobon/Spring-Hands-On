@@ -2,6 +2,13 @@
 1. pom.txt - (basic)Does not include dependencies for Test Framework
 2. springconfig.xml : Spring config xml with p:namespace
 
+## Useful Shortcuts:
+1. Ctrl + shift + o => organize imports (removes unused import statements)
+2. select code -> Ctrl + shift + f  => Format and Indent code
+3. select member variable -> Ctrl + 1 => write getter and setters
+3. right click in editor -> sources -> generate toString()
+
+
 ## Program Order
 
 #### *Basics of Dependencey Injection*
@@ -12,4 +19,7 @@
 5. Asst4 : First Dependency Injection Assignment
 
 #### *Basics of Lifecycle Management*
-1. 
+1. Lifecycle:  Bean lifecycle management using 3 ways
+- XML configurations : init-method , destroy-method , AbstractApplicationContext , registerShutdownHook()
+- Using spring Interfaces : Implement InitializingBean,DisposableBean:: Override -> afterPropertiesSet() & destroy()
+- Enabling Annotations : @PostConstruct , @PreDestroy :: <context:annotation-config/> in xml  
