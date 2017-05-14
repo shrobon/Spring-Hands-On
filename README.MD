@@ -6,7 +6,9 @@
 1. Ctrl + shift + o => organize imports (removes unused import statements)
 2. select code -> Ctrl + shift + f  => Format and Indent code
 3. select member variable -> Ctrl + 1 => write getter and setters
-3. right click in editor -> sources -> generate toString()
+4. right click in editor -> sources -> generate toString()
+5. Ctrl + shift + / -> Comment block of code
+6. Ctrl + shift + \ -> Uncomment Code 
 
 
 ## Program Order
@@ -23,3 +25,12 @@
 - XML configurations : init-method , destroy-method , AbstractApplicationContext , registerShutdownHook()
 - Using spring Interfaces : Implement InitializingBean,DisposableBean:: Override -> afterPropertiesSet() & destroy()
 - Enabling Annotations : @PostConstruct , @PreDestroy :: <context:annotation-config/> in xml  
+
+2. LifecycleAsst: Practice Assignment on Bean Lifecycle management using Annotations 
+
+#### *Dependencey check, Inner Beans and Bean Scope*
+1. DependencyCheckInnerBeansAndScope : 
+	- com.shrobon.spring.DependencyCheckInnerBeansAndScope : @Required annotation 
+	- com.shrobon.spring.Innerbeans : Inner Beans & has a relationship
+	- com.shrobon.spring.Scopes : singleton and prototype scope
+	
