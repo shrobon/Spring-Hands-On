@@ -22,9 +22,9 @@
 
 #### *Basics of Lifecycle Management*
 1. Lifecycle:  Bean lifecycle management using 3 ways
-- XML configurations : init-method , destroy-method , AbstractApplicationContext , registerShutdownHook()
-- Using spring Interfaces : Implement InitializingBean,DisposableBean:: Override -> afterPropertiesSet() & destroy()
-- Enabling Annotations : @PostConstruct , @PreDestroy :: <context:annotation-config/> in xml  
+	- XML configurations : init-method , destroy-method , AbstractApplicationContext , registerShutdownHook()
+	- Using spring Interfaces : Implement InitializingBean,DisposableBean:: Override -> afterPropertiesSet() & destroy()
+	- Enabling Annotations : @PostConstruct , @PreDestroy :: <context:annotation-config/> in xml  
 
 2. LifecycleAsst: Practice Assignment on Bean Lifecycle management using Annotations 
 
