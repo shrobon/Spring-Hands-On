@@ -38,3 +38,4 @@
 1. ConstructorInjection
 	- com.shrobon.spring.ConstructorInjection : Understanding basics of Constructor Injection
 	- com.shrobon.spring.CInjectionAmbiguity : type, index to resolve ambiguity
+	- com.shrobon.spring.beanexternalization : Bean Externalization and handling properties file
