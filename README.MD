@@ -39,3 +39,8 @@
 	- com.shrobon.spring.ConstructorInjection : Understanding basics of Constructor Injection
 	- com.shrobon.spring.CInjectionAmbiguity : type, index to resolve ambiguity
 	- com.shrobon.spring.beanexternalization : Bean Externalization and handling properties file
+
+2. Autowiring
+	-  autowiringConstructor: Autowiring using constructors
+	-  autowiringAnnotations: using the @Autowired Annotations and @Qualifier Annotation
+	
