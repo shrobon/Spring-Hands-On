@@ -41,6 +41,8 @@
 	- com.shrobon.spring.beanexternalization : Bean Externalization and handling properties file
 
 2. Autowiring
-	-  autowiringConstructor: Autowiring using constructors
-	-  autowiringAnnotations: using the @Autowired Annotations and @Qualifier Annotation
+	-  autowiringConstructor : Autowiring using constructors
+	-  autowiringAnnotations : using the @Autowired Annotations and @Qualifier Annotation
 	
+3. Standalone collections:
+	- standaloneCollections : defining standalone collections and injecting it into a spring bean 
