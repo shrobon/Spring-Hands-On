@@ -50,3 +50,4 @@
 
 4. Interface Injection:
 	- interfaceInjection : Understanding dependency injection through interfaces
+						 : Understanding lose-coupling

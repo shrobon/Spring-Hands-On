@@ -11,10 +11,13 @@
     http://www.springframework.org/schema/util/spring-util.xsd">
 
 	<bean class="com.shrobon.spring.interfaceInjection.OrderDAOImpl"
-		name="daoI" />
+		name="dao1" />
+	<bean class="com.shrobon.spring.interfaceInjection.OrderDAOImpl2"
+		name="dao2" />
+		
 	<bean class="com.shrobon.spring.interfaceInjection.OrderBOImpl"
 		name="bo">
-		<property name="dao" ref="daoI" />
+		<property name="dao" ref="dao2" />
 	</bean>
 
 </beans>
