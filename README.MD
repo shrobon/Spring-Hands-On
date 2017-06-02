@@ -46,3 +46,4 @@
 	
 3. Standalone collections:
 	- standaloneCollections : defining standalone collections and injecting it into a spring bean 
+							: understanding stereotype-annotations @Value , @Component , @Scope - 
