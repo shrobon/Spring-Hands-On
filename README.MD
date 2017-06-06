@@ -59,4 +59,7 @@
 						 : Understanding the flow of data and the jdbcTemplate
 						 : Undertsanding the use of rowMapper and mapRow :- queryForObject()
 						 : Autowiring JdbcTemplate
-						 
+
+6. SpringORM			 : Understanding ORM 
+						 : Understanding Transaction Manager and Local Session Factory
+						 : Configuring Transactions 
