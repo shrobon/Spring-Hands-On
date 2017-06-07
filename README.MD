@@ -63,3 +63,4 @@
 6. SpringORM			 : Understanding ORM 
 						 : Understanding Transaction Manager and Local Session Factory
 						 : Configuring Transactions 
+						 : Creating the Test Class and configuring the transactions to database in the create method 
