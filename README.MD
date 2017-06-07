@@ -9,6 +9,8 @@
 4. right click in editor -> sources -> generate toString()
 5. Ctrl + shift + / -> Comment block of code
 6. Ctrl + shift + \ -> Uncomment Code 
+7. Ctrl + shift + t -> Search for a fully qualified classname
+8. Ctrl + D 		-> delte the todo comment from the boilerplate methods 
 
 
 ## Program Order
