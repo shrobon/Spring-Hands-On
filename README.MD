@@ -67,5 +67,8 @@
 						 : Configuring Transactions 
 						 : Creating the Test Class and configuring the transactions to database in the create method 
 						 
-7. springmvc			 : Understanding the MVC flow architecture
-						 : Configuring the POM , removing the error and understanding the fodler structure 
+7. springmvcREDO			 : Understanding the MVC flow architecture
+						 : Configuring the POM , removing the error and understanding the folder structure
+						 : Configuring view resolver and servlet configuration in web.xml and dispatcher-servlet.xml
+						 : Writing the HelloController with return type of ModelAndView
+						 
