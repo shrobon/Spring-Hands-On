@@ -67,8 +67,14 @@
 						 : Configuring Transactions 
 						 : Creating the Test Class and configuring the transactions to database in the create method 
 						 
-7. springmvcREDO			 : Understanding the MVC flow architecture
+7. springmvcREDO		 : Understanding the MVC flow architecture
 						 : Configuring the POM , removing the error and understanding the folder structure
 						 : Configuring view resolver and servlet configuration in web.xml and dispatcher-servlet.xml
 						 : Writing the HelloController with return type of ModelAndView
-						 
+						 : Sending data from the controller to the UI :: ModelAndView.addObject(key,value)
+						 : Sending data from the UI to the controller :: Example of User Registration Use-case (Form Input)
+						 : Accepting values as part of Query Parameters 
+
+8. springmvcamazonREDO	 : Spring MVC Practice
+
+ 
