@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<context:annotation-config />
+	<context:property-placeholder
+		location="com/shrobon/spring/SpringPrac1/database.properties" />
+
+
+	<bean name="database" class="com.shrobon.spring.SpringPrac1.Database">
+		<property name="dbUser">
+			<value>${dbUser}</value>
+		</property>
+
+		<property name="dbPassword">
+			<value>${dbPassword}</value>
+		</property>
+
+		<property name="dbServer">
+			<value>${dbServer}</value>
+		</property>
+
+		<property name="dbPort">
+			<value>${dbPort}</value>
+		</property>
+	</bean>
+
+
+
+
+	<bean name="salary" class="com.shrobon.spring.SpringPrac1.Salary"
+		p:base="7300" p:hra="1250" p:tax="1600" />
+	<bean name="address" class="com.shrobon.spring.SpringPrac1.Address"
+		p:Street="25 RC Ghosh Lane" p:flat="A5/7" p:zip="700039" />
+
+
+
+
+	<bean name="emp" class="com.shrobon.spring.SpringPrac1.Employee"
+		p:id="99" p:name="Shrobon Biswas" p:company="Amazon.com" scope="prototype">
+		<property name="dependents">
+			<list>
+				<value>Rosy Biswas</value>
+				<value>Nirmal Biswas</value>
+				<value>Damayanti Ghosh</value>
+			</list>
+		</property>
+
+		<property name="address">
+			<ref bean="address" />
+		</property>
+
+		<property name="db">
+			<ref bean="database" />
+		</property>
+
+		<property name="account">
+			<bean name="bankAccount" class="com.shrobon.spring.SpringPrac1.BankAccount"
+				p:bank="SBI" p:accno="123456" p:branch="SBI" />
+		</property>
+
+		<constructor-arg>
+			<ref bean="salary"></ref>
+		</constructor-arg>
+	</bean>
+</beans>    

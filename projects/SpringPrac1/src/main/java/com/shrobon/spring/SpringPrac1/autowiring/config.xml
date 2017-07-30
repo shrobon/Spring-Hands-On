@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:annotation-config/>
+	<bean name="add" class="com.shrobon.spring.SpringPrac1.autowiring.Address" p:unit="304" p:street="tatlow Avenue" p:zip="VP7 3A2"/>
+	<bean name="add1" class="com.shrobon.spring.SpringPrac1.autowiring.Address" p:unit="305" p:street="tatlow Avenue" p:zip="VP7 3A2"/>
+	
+	
+	<bean name="employee" class="com.shrobon.spring.SpringPrac1.autowiring.Employee" p:name="Shrobon" />
+		
+</beans>
